@@ -1,0 +1,57 @@
+.sort {
+	font-family: 'Raleway', sans-serif;
+	color: $charcoal;
+	text-align: center;
+}
+.par {
+		margin-left: 25px;
+	}
+.link {
+	text-decoration: none;
+	color: #FEB41C;
+	font-weight: bold;
+	text-align: center;
+}
+.contain {
+	margin: 0px;
+}
+.mock {
+	width: 500px;
+	float: left;
+	height: 450px;
+	margin-left: 25px;
+	}
+.sortie {
+	color: #2A2C2B;
+	margin-left: 25px;
+	font-family: 'Raleway', sans-serif;
+}
+.proj {
+	width: 500px;	
+	float: left;
+	margin-left: 25px;
+	}
+
+@media (min-width: 768px) {
+	.par {
+		color: #2A2C2B;
+		margin-left: 0px;
+	}
+	.proj {
+		width: 500px;
+		height: 300px;
+
+	}
+	.contain {
+		float: left;
+		margin-left: 50px;
+	}
+	.mock {
+			width: 700px;
+			height: 600px;
+		}
+	.proj {
+		width: 1500px;
+		height: 900px;
+	}
+}

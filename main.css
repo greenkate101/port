@@ -1,0 +1,79 @@
+/*@font-face {
+	font-family: 'Raleway', sans-serif;
+	src: url(https://fonts.googleapis.com/css?family=Raleway);
+}*/
+
+.logo-container {
+	width: 50%;
+	padding-right: 10px;
+}
+
+.logo {
+	height: 50px;
+}
+
+
+/*nav	ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+li {
+	float: left;
+}
+a {
+	display: block;
+	text-align: left;
+	padding: 10px;
+	text-decoration: none;
+}*/
+nav	ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+li {
+	float: left;
+	color: #363F45;
+}
+a {
+	display: block;
+	text-align: left;
+	padding: 10px;
+	text-decoration: none;
+	color: #363F45;
+	font-family: 'Raleway', sans-serif;
+}
+.resume {
+			text-decoration: none;
+			color: #FEB41C;
+			font-weight: bold;
+			font-family: 'Raleway', sans-serif;
+			text-align: center;
+		}
+
+
+
+
+
+
+/*About*/
+
+.skills {
+	text-align: center;
+}
+.skill-img {
+
+}
+
+
+
+
+
+
+
+
+
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+}

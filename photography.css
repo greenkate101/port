@@ -1,0 +1,38 @@
+.gallery {
+	margin-top: 20px; 
+	margin-left: 28px;
+}
+.gallery-item {
+	margin: 20px;
+}
+.thumbnail {
+	border: 5px solid #FFF;
+	width: 400px;
+}
+
+
+@media (min-width: 800px) {
+	.gallery div {
+		width: 100px;
+	}
+	.gallery {
+		margin-right: 28px;
+		display: -webkit-flex;
+		display: -flex;
+		-webkit-justify-content: space-around;
+		justify-content: space-around;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		-webkit-align-content: space-between;
+		align-content:space-between;
+		
+	}
+	.cf {
+	width : 100px;
+	}
+}
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+}
